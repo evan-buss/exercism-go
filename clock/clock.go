@@ -15,11 +15,6 @@ type Clock struct {
 	hour, minute int
 }
 
-// func main() {
-// 	clock1 := New(1, -160)
-// 	fmt.Println(clock1.String())
-// }
-
 // New creates a new clock object with the given hour and minute
 func New(hour, minute int) Clock {
 	newClock := Clock{hour: 0, minute: 0}
